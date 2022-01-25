@@ -1,0 +1,125 @@
+.con {
+  max-width: 400px;
+  max-height: 100%;
+  border: solid blue 2px;
+  text-align: center;
+}
+
+.time {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: rgb(37, 36, 36);
+  text-align: center;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sun {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.condition {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(37, 36, 36);
+}
+.number {
+  text-align: center;
+  display: inline-block;
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  color: blue;
+}
+
+#cells {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(37, 36, 36);
+  text-decoration: none;
+}
+
+#cells:hover {
+  color: blue;
+}
+#cells:active {
+  color: blue;
+}
+
+#far {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(37, 36, 36);
+  text-decoration: none;
+}
+#far:hover {
+  color: blue;
+}
+.search-class {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.wraper {
+  max-height: 160px;
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+
+.wraper::-webkit-scrollbar {
+  width: 0px;
+}
+.box {
+  border: 1px solid blue;
+  min-width: 110px;
+  margin-left: 10px;
+  height: 140px;
+}
+
+.day {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.num {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: blue;
+  font-weight: 400;
+  line-height: 0.7;
+}
+
+.cloud {
+  text-align: center;
+  font-size: 20px;
+  line-height: 0.7;
+}
+
+.pro {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+}
