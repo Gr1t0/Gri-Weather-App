@@ -1,4 +1,3 @@
-const axios = require(`axios`).default;
 let now = new Date();
 
 let hours = now.getHours();
