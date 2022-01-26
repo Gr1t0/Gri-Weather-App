@@ -1,4 +1,4 @@
-import axios from "axios";
+const axios = require(`axios`).default;
 let now = new Date();
 
 let hours = now.getHours();
